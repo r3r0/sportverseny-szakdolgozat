@@ -1,0 +1,88 @@
+.root {
+     -fx-background-color :green;
+}
+.button {
+    -fx-text-fill: lime;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(black, darkgreen);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(#005300, green);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+.table-view{
+    -fx-background-color:  black;
+    -fx-text-fill: lime;
+    -fx-font-family: "Courier New";
+    -fx-border-color: darkgreen;
+}
+
+.column-header {
+    -fx-background-color: linear-gradient(black, darkgreen);
+    -fx-border-color: black;
+
+}
+
+.column-header:hover {
+    -fx-background-color: linear-gradient(#005300, limegreen);
+    -fx-border-color: black;
+
+}
+
+.column-header .label{
+    -fx-text-fill: white;
+}
+.label{
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.table-cell { 
+    -fx-border-color: rgba(0,0,0,0.5);
+
+}
+.table-cell:empty.table-cell:odd {
+    -fx-background-color: rgba(0,0,0,0.9);
+
+}
+
+.table-cell:empty.table-cell:even {
+    -fx-background-color: rgba(22,22,22,0.9);
+
+}
+
+.table-cell:filled.table-cell:odd{
+    -fx-background-color: rgba(222,222,222,0.9);
+
+}
+
+.table-cell:filled.table-cell:even {
+    -fx-background-color: rgba(244,244,244,0.9);
+
+}
+.table-view:row-selection .table-row-cell:selected .table-cell {
+    -fx-background-color: lime;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.text-field{
+     -fx-background-color : #111111;
+     -fx-text-fill: white;
+}
+
+.choice-box{
+     -fx-background-color : #111111;
+}
+
+.choice-box .menu-item { -fx-background-color: #111111; }
+.choice-box .menu-item:focused { -fx-background-color: limegreen; }
+.choice-box .menu-item > .label { -fx-text-fill: lime; }
+.choice-box .menu-item:focused > .label { -fx-text-fill: white; }

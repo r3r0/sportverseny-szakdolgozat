@@ -1,0 +1,7 @@
+1) hozzon létre egy új adatbázist „sport” néven, utf8mb4_hungarian_ci egyeztetéssel
+
+2)importálja a négy SQL fájlt a sport adatbázisba a következõ sorrendben: „orszag” -› „versenyzok” -› „egyeni” -› „kuzdo” 
+
+Nem szükséges új felhaszálót létrehozni
+
+JAR fájl útvonala: sport2 -› dist -› sport2.jar
